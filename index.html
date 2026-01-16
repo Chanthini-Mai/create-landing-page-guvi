@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+
+
+</head>
+
+<body class="bg-gray-100">
+
+  <header class="w-full bg-white fixed top-0 left-0 z-50 shadow">
+    <div class="w-full px-20 flex items-center justify-between">
+
+      <div class="flex items-center gap-2">
+        <img src="./assets/header-logo.png" alt="Logo" class="w-[130px] h-[80px] object-contain" />
+      </div>
+
+      <nav class="hidden md:flex gap-10 ml-[200px] font-['Righteous'] text-sm font-normal">
+        <a href="#" class="hover:text-purple-600">Home</a>
+        <a href="#" class="hover:text-purple-600">About</a>
+        <a href="#" class="hover:text-purple-600">Courses</a>
+        <a href="#" class="hover:text-purple-600">Contact</a>
+      </nav>
+
+      <div class="flex items-center">
+        <img src="./assets/icons/header-grp-icon.png" alt="Search" class="w-15 h-6 mr-6 cursor-pointer" />
+      </div>
+
+      <div class="flex items-center gap-4">
+        <button class="hidden md:block underline font-['Righteous'] text-gray-700">
+          Login
+        </button>
+        <button class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-5 py-2 rounded-lg">
+          Signup
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+  <!-- <header class="w-full bg-white fixed top-0 left-0 z-50 shadow">
+    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+
+      <div class="flex items-center gap-2">
+        <img src="./assets/header-logo.png" alt="Logo" class="w-[130px] h-[80px] object-contain" />
+      </div>
+
+  <nav class="hidden md:flex gap-8 font-['Righteous'] text-lg font-normal text">
+    <a href="#" class="hover:text-purple-600">Home</a>
+    <a href="#" class="hover:text-purple-600">About</a>
+    <a href="#" class="hover:text-purple-600">Courses</a>
+    <a href="#" class="hover:text-purple-600">Contact</a>
+  </nav>
+
+
+      <div class="flex items-center">
+        <img src="./assets/icons/header-grp-icon.png" alt="Search" class="w-15 h-5 mr-6 cursor-pointer" />
+      </div>
+
+      <div class="flex items-center gap-4">
+        <button class="text-gray-700 hidden md:block underline decoration-current">Login</button>
+        <button class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-5 py-2 rounded-lg">
+          Signup
+        </button>
+      </div>
+    </div>
+  </header> -->
+
+
+
+
+  <!-- HERO SECTION -->
+
+  <section class="relative bg-gradient-to-r from-[#4b1bb3] via-[#3a2dbf] to-[#2f4ad9] overflow-hidden">
+
+    <div class="absolute inset-0 z-999 pointer-events-none">
+      <div class="absolute translate-x-[630px] translate-y-[701px] origin-center">
+        <img src="./assets/shapes/curved-top01.png" class="h-[300px] w-[270px]" alt="img" />
+        <img src="./assets/shapes/curved-top02.png" class="absolute top-[20px] left-[20px] h-[280px] w-[230px]"
+          alt="img" />
+        <img src="./assets/shapes/curved-top03.png" class="absolute top-[40px] left-[40px] h-[260px] w-[190px]"
+          alt="img" />
+      </div>
+    </div>
+
+    <!-- MAIN GRID -->
+    <div class="max-w-7xl mx-12 px-8 pt-20 grid md:grid-cols-2 items-center">
+
+      <!-- LEFT CONTENT -->
+      <div class="text-white max-w-xl block self-start mt-28">
+
+        <div class="w-[460px] text-white/80 text-lg font-normal font-['Righteous'] uppercase leading-5 tracking-[3px]">
+          Successful coaches are visionaries
+        </div>
+
+        <div class="w-[600px] mt-8">
+          <span class="text-white text-7xl font-normal font-['Righteous'] leading-[80px]">
+            Good
+          </span>
+          <span class="text-blue-700 text-7xl font-normal font-['Righteous'] leading-[80px]">
+            coaching
+          </span>
+          <span class="text-white text-7xl font-normal font-['Righteous'] leading-[80px]">
+            is good teaching & nothing else.
+          </span>
+        </div>
+
+        <div class="flex gap-6 mt-12 mb-12">
+          <div
+            class="w-48 h-14 relative rounded-[10px] outline outline-2 outline-offset-[-2px] outline-white overflow-hidden">
+            <div class="w-48 h-14 left-0 top-0 absolute bg-teal-500/0 rounded-[5px] overflow-hidden">
+              <div
+                class="w-32 h-4 left-[38px] top-[15px] absolute justify-center text-white text-lg font-normal font-['Righteous'] leading-7 tracking-wide">
+                View Courses</div>
+            </div>
+          </div>
+          <div class="w-72 h-4 justify-center text-white text-lg font-normal font-['Righteous'] leading-[52px]">Get Free
+            Consultation</div>
+        </div>
+
+        <div class="w-[489px] h-16 bg-white rounded-md flex items-center px-4 gap-4">
+
+          <div class="flex-1 text-slate-600 text-base font-normal font-['Righteous']">
+            What do you want to learn today?
+          </div>
+
+          <button class="flex items-center gap-2 h-12 px-6
+                      bg-gradient-to-tr from-indigo-800 to-violet-500
+                      rounded-[10px]">
+
+            <img src="./assets/icons/header-btn-icon.png" class="w-4 h-4" alt="Search" />
+
+            <span class="text-white text-base font-normal font-['Righteous']">
+              Search
+            </span>
+          </button>
+
+        </div>
+
+
+      </div>
+
+
+      <!-- RIGHT IMAGE AREA -->
+      <div class="relative flex justify-end items-end min-h-[700px]">
+
+        <div class="absolute
+           -right-[400px] top-[600px] -translate-y-1/2
+           w-[520px] h-[520px]
+           lg:w-[720px] lg:h-[720px]
+           bg-white rounded-full
+           blur-[140px] opacity-80">
+        </div>
+
+        <img src="./assets/icons/header-straght-icon.png" class="hidden lg:block absolute
+           left-[100px] top-[180px]
+           w-5" alt="" />
+
+        <div class="w-64 h-40 relative -top-[600px] -right-[150px]">
+          <div
+            class="w-64 h-16 left-0 top-[43px] absolute justify-center text-white text-base font-normal font-['Righteous'] leading-6">
+            In a coaching role, you ask the questions and rely more on your <br />staff, who become the experts, to
+            provide the information.</div>
+          <div
+            class="left-0 top-[140px] absolute justify-center text-sky-500 text-xs font-bold font-['Inter'] leading-6">
+            4.9</div>
+          <div class="w-20 h-5 left-[29.38px] top-[136.09px] absolute">
+            <div class="w-16 h-5 left-0 top-0 absolute overflow-hidden">
+            </div>
+          </div>
+          <div
+            class="left-0 top-0 absolute justify-center text-white text-base font-normal font-['Rowdies'] leading-10">
+            Shyam</div>
+        </div>
+
+        <div class="absolute -bottom-[600px] -right-[600px]
+           inset-x-0 -translate-y-[90%] mx-auto w-[500px] h-[700px] bg-white rounded-full blur-[70px] z-0">
+        </div>
+
+        <img src="./assets/main-hero-img.png" alt="Hero" class="relative -bottom-[0px] -right-[250px]
+           z-10 w-[558px] h-[922px] object-contain mix-blend-darken" />
+
+      </div>
+
+    </div>
+
+    <!-- BRAND STRIP -->
+    <div class="w-full bg-white/10 py-6 border-t-1 border-white">
+      <div class="max-w-7xl mx-auto flex flex-wrap justify-center items-center gap-[100px]">
+        <img src="./assets/spotify.png" class="w-24 h-7 object-contain" />
+        <img src="./assets/amazon.png" class="w-24 h-7 object-contain" />
+        <img src="./assets/spotify.png" class="w-24 h-7 object-contain" />
+        <img src="./assets/cisco.png" class="w-28 h-8 object-contain" />
+        <img src="./assets/logitech.png" class="w-24 h-7 object-contain" />
+        <img src="./assets/amazon.png" class="w-24 h-7 object-contain" />
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+  <iframe src="./components/featured.html" class="w-full h-[1300px] border-none"></iframe>
+
+  <iframe src="./components/why-learn.html" class="w-full h-[700px] border-none"></iframe>
+
+  <iframe src="./components/categories.html" class="w-full h-[500px] border-none"></iframe>
+
+  <iframe src="./components/subscribe.html" class="w-full h-[500px] border-none"></iframe>
+
+  <iframe src="./components/videopart.html" class="w-full h-[950px] border-none"></iframe>
+
+  <iframe src="./components/testimonials.html" class="w-full h-[600px] border-none"></iframe>
+
+  <iframe src="./components/footer.html" class="w-full h-[410px] border-none"></iframe>
+
+
+</body>
+
+</html>
