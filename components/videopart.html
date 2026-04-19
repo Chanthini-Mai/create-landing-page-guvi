@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Video with Banner</title>
+</head>
+
+<body class="bg-white py-28">
+  <div class="max-w-7xl mx-auto px-6 relative z-10">
+    <!-- Removed overflow-hidden from this div -->
+    <div class="relative rounded-2xl shadow-lg">
+
+      <!-- Video Image -->
+      <img src="../assets/video-img.jpeg" alt="Student video" class="w-full rounded-2xl h-[718px] object-cover" />
+
+      <!-- Play Button -->
+      <div class="absolute inset-0 flex items-center justify-center z-20">
+        <img src="../assets/Ellipse/play-btn-icon.png" alt="Play Button"
+          class="w-[150px] h-[150px] cursor-pointer hover:scale-110 transition-transform" />
+      </div>
+
+      <!-- Banner Image -->
+      <div class="absolute right-[-85px] -bottom-8 w-52 h-52 z-30">
+        <img src="../assets/banner-img.png" alt="Decorative Geometric" class="w-full h-full object-contain" />
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
